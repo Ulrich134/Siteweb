@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ma plateforme</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+
+    nav {
+      width: 200px;
+      background: #1f2937;
+      color: white;
+      height: 100vh;
+      padding: 20px;
+    }
+
+    nav a {
+      color: white;
+      display: block;
+      margin-bottom: 10px;
+      text-decoration: none;
+    }
+
+    iframe {
+      flex: 1;
+      border: none;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Menu</h2>
+    <a href="accueil.html" target="contenu">Accueil</a>
+    <a href="plateforme.html" target="contenu">Dashboard</a>
+    <a href="cv.html" target="contenu">CV</a>
+    <a href="tableau.html" target="contenu">Tableau</a>
+    <a href="select.html" target="contenu">Formulaire</a>
+  </nav>
+
+  <iframe name="contenu" src="accueil.html"></iframe>
+</body>
+</html>
